@@ -1,0 +1,286 @@
+/* FONTS */
+body.mapei, .theme-entry.mapei, body.theme-entry.mapei .toolbar-button, body.theme-entry.mapei .headerTxt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #202020;
+}
+
+/* CHART FONTS */
+.theme-entry .runtime-content.mapei .StandardChart .radchartlabel, body.theme-entry.mapei .k-tooltip.k-chart-tooltip {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400 !important;
+    color: #202020;
+    fill: #4D4D4D !important;
+}
+
+/*SECTION TITLES*/
+.panel-header-text span, .grid-header-text span {
+  font-size: 2.2rem !important;
+  font-weight: 700 !important;
+  color: #0582ca;
+}
+
+body.theme-entry.mapei h1.page-title {
+    font-size: 2.2rem !important;
+    font-weight: 700 !important;
+    color: #0582ca;
+}
+
+/*SECTION TITLE UNDERLINE*/
+.theme-entry .panel-header, .theme-entry .grid-header {
+    border-bottom: solid 1px var(--input-border-color);
+}
+
+/*BANNER BACKGROUND*/
+.theme-entry .view .panel-header-wrapper, .theme-entry .view-canvas .panel-header-wrapper, .theme-entry .view .grid-header-wrapper, .theme-entry .view-canvas .grid-header-wrapper, .theme-entry .view .grid-header, .theme-entry .view-canvas .grid-header, .theme-entry .view .panel-header, .theme-entry .view-canvas .panel-header {
+    background: none;
+}
+
+/*PANEL BACKGROUND*/
+.theme-entry .view .innerpanel>.grid, .theme-entry .view .innerpanel>.panel, .theme-entry .view-canvas>.grid, .theme-entry .view-canvas>.panel {
+    background: none;
+}
+
+/* LIST FILTERS EXTRA MARGIN */
+.theme-entry .filterContainer {
+    margin: .5rem;
+}
+
+/*ALLIGN SEARCH INPUT (LIST VIEW FILTERS) SIZE AND STYLE AND REMOVE OUTER BORDER*/
+.theme-entry .filterTxt .input-control.text-input .input-control-m-c {
+    border: none;
+}
+
+.theme-entry .filterContainer .quickSearch .filterTxt .input-control input[type=text].input-control {
+    padding: 1.04em;
+    border: 1px solid #b2b2b2;
+}
+
+
+/************************ FORM *************************************/
+
+/* FORM BACKGROUND COLOR */
+body.theme-entry, #pgOuterPanel.theme-entry {
+    background-color: #e0e0e0;
+}
+
+/* FORM PADDING */
+body.theme-entry.mapei {
+    padding: 2% 10%;
+}
+/* CLASS APPLYED BASED ON EXISTENCE OF OTHER CLASSES */
+.form-shadow {
+    box-shadow: 0 2px 3px #0a9396;
+}
+
+/************************** BORDERS ************************************/
+
+/* DROP DOWN LIST BORDER*/
+.theme-entry .dropdown-box {
+    border: 1px solid #b2b2b2;
+}
+
+/* BORDER FOR PICKER */
+.theme-entry.mapei .input-control.select-box.lookup-box.picker-input.double-buttons {
+    border: 1px solid #b2b2b2;
+}
+
+/* RADIUS FOR AUTOCOMPLETE */
+.theme-entry.mapei .SFC.SourceCode-Forms-Controls-Web-ControlPack-AutoComplete .input-control-m-c input {
+    border-radius: 3px;
+}
+
+/* BORDER FOR AUTOCOMPLETE DISABLED */
+.theme-entry.mapei .SFC.SourceCode-Forms-Controls-Web-ControlPack-AutoComplete.disabled .input-control-m-c input, .theme-entry.mapei input[type=text].SourceCode-Forms-Controls-Web-TextBox.disabled {
+    border: 1px solid #495057 !important;
+}
+
+/*LOOKUP, CALENDAR, AUTOCOMPLETE, PICKER BUTTONS FIX*/
+.theme-entry.mapei .input-control.select-box .input-control-m-c, .theme-entry.mapei .input-control.select-box .input-control-buttons, .theme-entry.mapei .input-control-buttons, .theme-entry.mapei .input-control.text-input .input-control-m-c, .theme-entry.mapei .input-control.select-box.picker-input .input-control-buttons, .theme-entry.mapei .input-control.select-box.picker-input.double-buttons .input-control-buttons {
+    border: 0 solid transparent;
+    border-width: 0;
+}
+
+/*ICON BORDER LEFT FOR LOOKUP FIELDS*/
+body.theme-entry.mapei .input-control.lookup-box .input-control-buttons {
+    border: 1px solid #b2b2b2;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+/* FIX BORDER FOR LOOKUP INPUTS */
+.theme-entry.mapei .input-control.select-box:not(.hide-buttons) .input-control-m-c {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-width: 0;
+}
+
+
+/************************* PADDINGS ***************************/
+
+/* TEXT-BOX INPUT PADDING AND RADIUS*/
+.theme-entry.mapei input.SFC.SourceCode-Forms-Controls-Web-TextBox.SFE, .theme-entry.mapei input.SFC.SourceCode-Forms-Controls-Web-TextBox.watermark, .theme-entry.mapei input.SFC.SourceCode-Forms-Controls-Web-TextBox.focus, .theme-entry.mapei input.SFC.SourceCode-Forms-Controls-Web-TextBox.disabled, .theme-entry.mapei input.SFC.SourceCode-Forms-Controls-Web-TextBox.readonly {
+    padding: 1.1em;
+    border-radius: 3px;
+}
+
+/* PADDING FOR AUTOCOMPLETE */
+.theme-entry.mapei .SFC.SourceCode-Forms-Controls-Web-ControlPack-AutoComplete .input-control-m-c input.input-control {
+    padding: 1.1em;
+}
+
+/* REMOVE SET HEIGHT FOR AUTOCOMPLETE */
+.theme-entry.mapei .input-control.text-input .input-control-wrapper input[type=text].input-control, .theme-entry.mapei .input-control.select-box.picker-input[data-maxrows="1"] div.editable-area, .theme-entry.mapei .input-control.select-box.picker-input[data-maxrows="1"] div.input-control-wrapper {
+    height: 100% !important;
+}
+
+/* SET AUTOCOMPLETE LABEL POSITION */
+.theme-entry.mapei .input-control.text-input .input-control-wrapper div.input-control-watermark {
+    align-self: anchor-center;
+}
+
+/* DROP-DOWN LIST PADDING */
+.theme-entry.mapei .input-control.select-box.dropdown-box.style-aware, .theme-entry.mapei .input-control.select-box.dropdown-box.style-aware.choiceddl, .theme-entry.mapei .input-control.select-box.dropdown-box.watermark, .theme-entry.mapei .input-control.select-box.dropdown-box.disabled, .theme-entry.mapei .input-control.select-box.dropdown-box.focus, .theme-entry.mapei .input-control.select-box.dropdown-box.readonly {
+    height: 3.4em;
+    box-sizing: border-box;
+}
+
+/* SET DROP-DOWN LABEL POSITION */
+.theme-entry.mapei .input-control.select-box .input-control-m-c {
+    align-content: center;
+} 
+
+/* SET DROP-DOWN BUTTON HEIGHT */
+.theme-entry.mapei .input-control.select-box:not(.lookup-box) .input-control-buttons a {
+    height: 100%;
+}
+
+.theme-entry .input-control.select-box.lookup-box.disabled .input-control-buttons a {
+    background-color: transparent;
+}
+
+/* CALENDAR, LOOKUP INPUT PADDING */
+.theme-entry.mapei .input-control.select-box.lookup-box.calendar-control.datepicker .input-control-watermark, .theme-entry.mapei .input-control.select-box.lookup-box.calendar-control.datepicker .input-control, .theme-entry.mapei .input-control.select-box.lookup-box .input-control-watermark, .theme-entry.mapei .input-control.select-box.lookup-box .input-control{
+    padding: .8em;
+}
+
+/* CALENDAR, LOOKUP FIX DUE ADDING PADDING */
+.theme-entry.mapei .input-control.select-box.lookup-box.calendar-control.datepicker div.input-control-watermark, .theme-entry.mapei .input-control.select-box.lookup-box div.input-control-watermark {
+    height: 100%;
+}
+
+
+/************************ FIELDS ICONS ********************************/
+
+/* CALENDAR, LOOKUP BUTTON PADDING */
+.theme-entry.mapei div.input-control.select-box.lookup-box div.input-control-buttons.styling-right.styling-inner-wrapper {
+    padding: .6em;
+}
+
+/* CALENDAR, LOOKUP BUTTON HOVER */
+.theme-entry.mapei div.input-control.select-box.lookup-box div.input-control-buttons.styling-right.styling-inner-wrapper:hover {
+    background-color: var(--input-button-hover-background-color);
+    cursor: pointer;
+}
+.theme-entry.mapei div.input-control.select-box.lookup-box div.input-control-buttons.styling-right.styling-inner-wrapper a.ellipsis:hover {
+    background-color: transparent;
+}
+
+/* CALENDAR EXTRA SIZE */
+.theme-entry.mapei .input-control.select-box.datepicker .input-control-buttons a.date.calender-control-button.style-aware svg, .theme-entry.mapei .input-control.select-box.disabled .input-control-buttons a.date svg {
+    scale: 1.5;
+}
+
+
+/******************************* BACKGROUND-COLORS *****************************/
+
+/* BG COLOR FIELDS */
+.theme-entry.mapei input[type=text], .theme-entry.mapei div.input-control, .theme-entry.mapei .lookup-box.picker-input .input-control-buttons, .theme-entry.mapei .SFC.SourceCode-Forms-Controls-Web-TextBox, .theme-entry .input-control.select-box .input-control-m-c, .theme-entry .input-control.select-box .input-control-buttons,.theme-entry .input-control textarea {
+    background-color: #ffffff;
+    opacity: inherit;
+}
+
+/* BG COLOR FIELDS DISABLED */
+.theme-entry.mapei input[type=text].disabled, .theme-entry.mapei div.input-control.disabled, .theme-entry.mapei .lookup-box.picker-input.disabled .input-control-buttons {
+    background-color: #E6E6E6 !important;
+    opacity: inherit;
+}
+
+/* TEXTBOX FIELD BG COLOR DISABLED */
+.theme-entry.mapei input[type=text].SourceCode-Forms-Controls-Web-TextBox.disabled, .theme-entry.mapei .lookup-box.picker-input div.input-control.disabled {
+    background-color: #E6E6E6 !important;
+    color: #202020;
+    opacity: .5;
+}
+
+
+/***************************** BUTTONS ****************************/
+
+body.theme-entry.mapei .pure-button {
+    font-family: inherit;
+    font-size: 100%;
+    color: #202020;
+    padding: 0.5em 1em;
+    color: rgba(0, 0, 0, 0.80);
+    border: none rgba(0, 0, 0, 0);
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+body.theme-entry.mapei .pure-button-hover,
+body.theme-entry.mapei .pure-button:hover,
+body.theme-entry.mapei .pure-button:focus {
+    background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+}
+body.theme-entry.mapei .pure-button:focus {
+    outline: 0;
+}
+body.theme-entry.mapei .pure-button-active,
+body.theme-entry.mapei .pure-button:active {
+    box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
+    border-color: #000;
+}
+
+body.theme-entry.mapei .pure-button[disabled],
+body.theme-entry.mapei .pure-button-disabled,
+body.theme-entry.mapei .pure-button-disabled:hover,
+body.theme-entry.mapei .pure-button-disabled:focus,
+body.theme-entry.mapei .pure-button-disabled:active {
+    border: none;
+    background-image: none;
+    opacity: 0.40;
+    cursor: not-allowed;
+    box-shadow: none;
+    pointer-events: none;
+}
+
+body.theme-entry.mapei .pure-button-hidden {
+    display: none;
+}
+
+body.theme-entry.mapei .pure-button-primary,
+body.theme-entry.mapei .pure-button-selected,
+abody.theme-entry.mapei .pure-button-primary,
+abody.theme-entry.mapei .pure-button-selected {
+    background-color: rgb(0, 120, 231);
+    color: #fff;
+}
+
+/* Button Groups */
+body.theme-entry.mapei .pure-button-group body.theme-entry.mapei .pure-button {
+    margin: 0;
+    border-radius: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+body.theme-entry.mapei .pure-button-group body.theme-entry.mapei .pure-button:first-child {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+body.theme-entry.mapei .pure-button-group body.theme-entry.mapei .pure-button:last-child {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-right: none;
+}
