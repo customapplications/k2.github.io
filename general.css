@@ -28,7 +28,8 @@ body.theme-entry.mapei h1.page-title {
 
 /*SECTION TITLE UNDERLINE*/
 .theme-entry .panel-header, .theme-entry .grid-header {
-    border-bottom: solid 1px var(--input-border-color);
+    /*border-bottom: solid 1px var(--input-border-color);*/
+    border-bottom: none;
 }
 
 /*BANNER BACKGROUND*/
@@ -40,6 +41,12 @@ body.theme-entry.mapei h1.page-title {
 .theme-entry .view .innerpanel>.grid, .theme-entry .view .innerpanel>.panel, .theme-entry .view-canvas>.grid, .theme-entry .view-canvas>.panel {
     background: none;
 }
+
+/*CUSTOM HEADER BACKGROUND*/
+body.theme-entry.mapei .view [name^="HeaderView"] {
+    background-color: #0079c6;
+}
+
 
 /* LIST FILTERS EXTRA MARGIN */
 .theme-entry .filterContainer {
@@ -66,8 +73,19 @@ body.theme-entry, #pgOuterPanel.theme-entry {
 
 /* FORM PADDING */
 body.theme-entry.mapei {
-    padding: 2% 10%;
+    padding: 4% 10% 2%;
 }
+
+/*CUSTOM HEADER*/
+body.theme-entry.mapei [name^="HeaderView"] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    z-index: 1000;
+}
+
 /* CLASS APPLYED BASED ON EXISTENCE OF OTHER CLASSES */
 .form-shadow {
     box-shadow: 0 2px 3px #0a9396;
