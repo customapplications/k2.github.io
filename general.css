@@ -73,7 +73,7 @@ body.theme-entry, #pgOuterPanel.theme-entry {
 
 /* FORM PADDING */
 body.theme-entry.mapei {
-    padding: 95px 10% 2%;
+    padding: 95px 10% 2% !important;
 }
 
 /*CUSTOM HEADER*/
