@@ -23,10 +23,10 @@ const renderPureCss = () => {
     link.crossOrigin = 'anonymous';
 
     // Responsive Grid
-    /*const linkResponsiveGrid = document.createElement('link');
+    const linkResponsiveGrid = document.createElement('link');
     linkResponsiveGrid.rel = 'stylesheet';
     linkResponsiveGrid.href = 'https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css';
-*/
+    
     // Meta tag to make layout responsive
     const meta = document.createElement('meta');
     meta.name = 'viewport';
