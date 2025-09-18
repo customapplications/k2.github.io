@@ -35,8 +35,8 @@ const renderPureCss = () => {
     const style = document.createElement('style');
     style.textContent = `
         input, select, textarea {
-            /*box-shadow: none !important;
-            border: 1px solid #b2b2b2 !important;*/
+            box-shadow: none !important;
+            border: 1px solid #b2b2b2 !important;
             
         }
     `;
