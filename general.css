@@ -1,4 +1,4 @@
-/* FONTS */
+https://mapeigroup.sharepoint.com/:u:/r/sites/app-customapps-config/SiteAssets/CSS/MyFirstStyleProf.css?csf=1&web=1&e=x5elz5/* FONTS */
 body.mapei, .theme-entry.mapei, body.theme-entry.mapei .toolbar-button, body.theme-entry.mapei .headerTxt {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -43,15 +43,15 @@ body.theme-entry.mapei h1.page-title {
 }
 
 /*CUSTOM MAPEI HEADER BACKGROUND*/
-body.theme-entry.mapei .view [name^="HeaderView"] {
+body.theme-entry.mapei .view [name^="HeaderViewMapei"] {
     background-color: #0079c6;
 }
 
 /*CUSTOM VINAVIL HEADER BACKGROUND*/
-body.theme-entry.mapei .view [name^="VinavilHeader"] {
+body.theme-entry.mapei .view [name^="HeaderViewVinavil"] {
     background-color: #e51400;
 }
-
+ 
 
 /* LIST FILTERS EXTRA MARGIN */
 .theme-entry .filterContainer {
