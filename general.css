@@ -42,9 +42,14 @@ body.theme-entry.mapei h1.page-title {
     background: none;
 }
 
-/*CUSTOM HEADER BACKGROUND*/
+/*CUSTOM MAPEI HEADER BACKGROUND*/
 body.theme-entry.mapei .view [name^="HeaderView"] {
     background-color: #0079c6;
+}
+
+/*CUSTOM VINAVIL HEADER BACKGROUND*/
+body.theme-entry.mapei .view [name^="VinavilHeader"] {
+    background-color: #e51400;
 }
 
 
