@@ -51,6 +51,11 @@ body.theme-entry.mapei .view [name^="HeaderViewMapei"] {
 body.theme-entry.mapei .view [name^="HeaderViewVinavil"] {
     background-color: #e51400;
 }
+
+/*CUSTOM POLYGLASS HEADER BACKGROUND*/
+body.theme-entry.mapei .view [name^="HeaderViewPolyglass"] {
+    background-color: #007C7A;
+}
  
 
 /* LIST FILTERS EXTRA MARGIN */
