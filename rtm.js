@@ -1,4 +1,3 @@
-
 var delay = (function(){
     var timer = 0;
     return function(callback, ms){
@@ -8,7 +7,6 @@ var delay = (function(){
 })();
 
 var setSize = (function(){
-
     return function(){
         if (window.matchMedia('(min-width: 992px)').matches) // large devices
         { //width >= 768 && width <= 959 ) {
@@ -20,7 +18,8 @@ var setSize = (function(){
         }
         else if (window.matchMedia('(max-width: 600px)').matches) // phones
         { //width <= 479 ) {
-            $("div[name=MapeiTable] span[name^=Cell]").css({"padding":"5px 10px"})
+            alert("stoca");
+            $("div[name=MapeiTable] span[name^=Cell]").css("padding","5px 10px !important");
         }
     };
 })();
@@ -30,10 +29,9 @@ $(function() {
    
     $(window).resize(function() {
         delay(function() {
-            setSize;            
+            setSize();            
         }, pause );
     });
 
     $(window).resize();
 });
-
