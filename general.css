@@ -14,16 +14,42 @@ body.mapei, .theme-entry.mapei, body.theme-entry.mapei .toolbar-button, body.the
 }
 
 /*SECTION TITLES*/
+
+body.theme-entry.mapei:has(div[name^="HeaderViewMapei"]) 
+  .panel-header-text span,
+body.theme-entry.mapei:has(div[name^="HeaderViewMapei"]) 
+  .grid-header-text span,
+body.theme-entry.mapei:has(div[name^="HeaderViewMapei"]) 
+  h1.page-title {
+  color: #0582ca;
+}
+
+body.theme-entry.mapei:has(div[name^="HeaderViewVinavil"]) 
+  .panel-header-text span,
+body.theme-entry.mapei:has(div[name^="HeaderViewVinavil"]) 
+  .grid-header-text span,
+body.theme-entry.mapei:has(div[name^="HeaderViewVinavil"]) 
+  h1.page-title {
+  color: #ca132c;
+}
+
+body.theme-entry.mapei:has(div[name^="HeaderViewPolyglass"]) 
+  .panel-header-text span,
+body.theme-entry.mapei:has(div[name^="HeaderViewPolyglass"]) 
+  .grid-header-text span,
+body.theme-entry.mapei:has(div[name^="HeaderViewPolyglass"]) 
+  h1.page-title {
+  color: #007C7A;
+}
+
 .panel-header-text span, .grid-header-text span {
   font-size: 2.2rem !important;
   font-weight: 700 !important;
-  color: #0582ca;
 }
 
 body.theme-entry.mapei h1.page-title {
     font-size: 2.2rem !important;
     font-weight: 700 !important;
-    color: #0582ca;
 }
 
 /*SECTION TITLE UNDERLINE*/
@@ -49,7 +75,7 @@ body.theme-entry.mapei .view [name^="HeaderViewMapei"] {
 
 /*CUSTOM VINAVIL HEADER BACKGROUND*/
 body.theme-entry.mapei .view [name^="HeaderViewVinavil"] {
-    background-color: #e51400;
+    background-color: #ca132c;
 }
 
 /*CUSTOM POLYGLASS HEADER BACKGROUND*/
