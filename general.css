@@ -13,6 +13,11 @@ body.mapei, .theme-entry.mapei, body.theme-entry.mapei .toolbar-button, body.the
     fill: #4D4D4D !important;
 }
 
+/* PICKER FONT */
+body.mapei, .theme-entry.mapei .picker-input span.resolved {
+    color: #000000;
+  }
+
 /*SECTION TITLES*/
 
 body.theme-entry.mapei:has(div[name^="HeaderViewMapei"]) 
