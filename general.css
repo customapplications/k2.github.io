@@ -14,7 +14,7 @@ body.mapei, .theme-entry.mapei, body.theme-entry.mapei .toolbar-button, body.the
 }
 
 /* PICKER FONT */
-body.mapei, .theme-entry.mapei .picker-input span.resolved {
+body.mapei .theme-entry.mapei .picker-input span.resolved {
     color: #000000;
   }
 
