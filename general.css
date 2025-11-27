@@ -124,7 +124,7 @@ body.theme-entry.mapei [name^="HeaderView"] {
     left: 0;
     right: 0;
     width: 100vw;
-    z-index: 1000;
+    z-index: 1;
 }
 
 /* CLASS APPLYED BASED ON EXISTENCE OF OTHER CLASSES */
