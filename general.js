@@ -17,6 +17,21 @@ function uuidv4() {
     (+c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> +c / 4).toString(16)
   );
 }
+
+function UpdateSmartFormControlValue(ControlName,Value){
+    var myTextBoxXPath='Controllers/Controller/Controls/Control[@Name="'+ControlName+'"]';
+    var windowToUse=window;
+    
+    if(!checkExists(windowToUse.viewControllerDefinition)){
+        windowToUse.viewControllerDefinition=$xml(windowToUse.__runtimeControllersDefinition)
+    }
+    
+    var myControl=windowToUse.$sn(windowToUse.viewControllerDefinition,myTextBoxXPath);
+    var controlInfoObj=new windowToUse.PopulateObject(null,Value,myControl.getAttribute("ID"));
+    
+    windowToUse.executeControlFunction(myControl,"SetValue",controlInfoObj);
+    windowToUse.raiseEvent(myControl.getAttribute("ID"),"Control","OnChange")
+}
  
 const enableTheme = () => {
     // Add the 'mapei' class to several elements to apply the base theme
