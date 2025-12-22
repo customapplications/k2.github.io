@@ -6,13 +6,17 @@ $(document).ready(function() {
     appendPureCssClass();
     //addFormShadow()
     setFavicons('https://customapplications.github.io/k2.github.io/favicon/favicon-96x96.png','96x96',null,'icon');
-setFavicons('https://customapplications.github.io/k2.github.io/favicon/favicon.svg',null,'image/svg+xml','icon');
-setFavicons('https://customapplications.github.io/k2.github.io/favicon/favicon.ico',null,null,'shortcut icon');
-setFavicons('https://customapplications.github.io/k2.github.io/favicon/apple-touch-icon.png','180x180',null,'apple-touch-icon');
-setFavicons('https://customapplications.github.io/k2.github.io/favicon/site.webmanifest',null,null,'manifest');
+    setFavicons('https://customapplications.github.io/k2.github.io/favicon/favicon.svg',null,'image/svg+xml','icon');
+    setFavicons('https://customapplications.github.io/k2.github.io/favicon/favicon.ico',null,null,'shortcut icon');
+    setFavicons('https://customapplications.github.io/k2.github.io/favicon/apple-touch-icon.png','180x180',null,'apple-touch-icon');
+    setFavicons('https://customapplications.github.io/k2.github.io/favicon/site.webmanifest',null,null,'manifest');
 });
 
-//drawLineBelowTitle()
+function uuidv4() {
+  return "10000000-1000-4000-8000-100000000000".replace(/[018]/g, c =>
+    (+c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> +c / 4).toString(16)
+  );
+}
  
 const enableTheme = () => {
     // Add the 'mapei' class to several elements to apply the base theme
