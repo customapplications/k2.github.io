@@ -193,9 +193,11 @@ body.theme-entry.mapei .input-control.lookup-box .input-control-buttons {
     height: 100% !important;
 }
 
-/* SET AUTOCOMPLETE LABEL POSITION */
+/* SET AUTOCOMPLETE & TEXTAREA LABEL POSITION */
 .theme-entry.mapei .input-control.text-input .input-control-wrapper div.input-control-watermark {
     align-self: anchor-center;
+    height: 100%;
+    padding: 10px 0 0 10px;
 }
 
 /* DROP-DOWN LIST PADDING */
