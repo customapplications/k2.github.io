@@ -178,6 +178,10 @@ body.theme-entry.mapei .input-control.lookup-box .input-control-buttons {
     background-color: transparent;
 }
 
+.theme-entry.mapei .multi-select-outer-panel .multi-select-box-list-item .input-control.radio{
+    border-width: 0;
+}
+
 
 /************************* PADDINGS ***************************/
 
