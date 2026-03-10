@@ -389,3 +389,9 @@ body.theme-entry.mapei:has(div[name^="HeaderViewPolyglass"])
   opacity: 0.5;
 }
 
+/***************************** AUTOCOMPLETE ****************************/
+
+body.theme-entry.mapei .ui-autocomplete-input{
+    font-weight: 500;
+    color: #202020;
+}
