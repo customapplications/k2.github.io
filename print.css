@@ -1,0 +1,187 @@
+/***************************** PRINT STYLE ****************************/
+
+@media print {
+
+/*CUSTOM HEADER*/
+body.theme-entry.mapei [name^="HeaderView"] {
+    display: none;
+}
+
+/* FORM PADDING */
+body.theme-entry.mapei {
+    padding: 0 !important;
+}
+
+/* BUTTONS */
+body.theme-entry.mapei .pure-button {
+    display: none;
+}
+
+/* REDUCING THE BODY ALSO FIXES SOME VIZUAL ISSUES */
+body {
+        zoom: 0.5 !important;
+    }
+
+
+/* IMAGES WIDTH */
+    img {
+        width: 100% !important;
+    }
+
+
+/* TEXT-BOX INPUT PADDING AND RADIUS*/
+.theme-entry.mapei input.SFC.SourceCode-Forms-Controls-Web-TextBox.SFE, .theme-entry.mapei input.SFC.SourceCode-Forms-Controls-Web-TextBox.watermark, .theme-entry.mapei input.SFC.SourceCode-Forms-Controls-Web-TextBox.focus, .theme-entry.mapei input.SFC.SourceCode-Forms-Controls-Web-TextBox.disabled, .theme-entry.mapei input.SFC.SourceCode-Forms-Controls-Web-TextBox.readonly {
+    padding: 0;
+    border-radius: 0;
+}
+
+/* PADDING FOR AUTOCOMPLETE */
+.theme-entry.mapei .SFC.SourceCode-Forms-Controls-Web-ControlPack-AutoComplete .input-control-m-c input.input-control {
+    padding: 0;
+}
+
+/* REMOVE SET HEIGHT FOR AUTOCOMPLETE */
+.theme-entry.mapei .input-control.text-input .input-control-wrapper input[type=text].input-control, .theme-entry.mapei .input-control.select-box.picker-input[data-maxrows="1"] div.editable-area, .theme-entry.mapei .input-control.select-box.picker-input[data-maxrows="1"] div.input-control-wrapper {
+    height: 100% !important;
+}
+
+/* SET AUTOCOMPLETE & TEXTAREA LABEL POSITION */
+.theme-entry.mapei .input-control.text-input .input-control-wrapper div.input-control-watermark {
+    align-self: anchor-center;
+    height: 100%;
+    padding: 0;
+}
+
+/* DROP-DOWN LIST PADDING */
+.theme-entry.mapei .input-control.select-box.dropdown-box.style-aware, .theme-entry.mapei .input-control.select-box.dropdown-box.style-aware.choiceddl, .theme-entry.mapei .input-control.select-box.dropdown-box.watermark, .theme-entry.mapei .input-control.select-box.dropdown-box.disabled, .theme-entry.mapei .input-control.select-box.dropdown-box.focus, .theme-entry.mapei .input-control.select-box.dropdown-box.readonly {
+    height: 0;
+    box-sizing: border-box;
+}
+
+/* SET DROP-DOWN LABEL POSITION */
+.theme-entry.mapei .input-control.select-box .input-control-m-c {
+    align-content: center;
+} 
+
+/* SET DROP-DOWN BUTTON HEIGHT */
+.theme-entry.mapei .input-control.select-box:not(.lookup-box) .input-control-buttons a {
+    height: 100%;
+}
+
+.theme-entry .input-control.select-box.lookup-box.disabled .input-control-buttons a {
+    background-color: transparent;
+}
+
+/* CALENDAR, LOOKUP INPUT PADDING */
+.theme-entry.mapei .input-control.select-box.lookup-box.calendar-control.datepicker .input-control-watermark, .theme-entry.mapei .input-control.select-box.lookup-box.calendar-control.datepicker .input-control, .theme-entry.mapei .input-control.select-box.lookup-box .input-control-watermark, .theme-entry.mapei .input-control.select-box.lookup-box .input-control{
+    padding: 0;
+}
+
+/* CALENDAR, LOOKUP FIX DUE ADDING PADDING */
+.theme-entry.mapei .input-control.select-box.lookup-box.calendar-control.datepicker div.input-control-watermark, .theme-entry.mapei .input-control.select-box.lookup-box div.input-control-watermark {
+    height: 100%;
+}
+
+
+
+
+
+/* CALENDAR, LOOKUP BUTTON PADDING */
+.theme-entry.mapei div.input-control.select-box.lookup-box div.input-control-buttons.styling-right.styling-inner-wrapper {
+    padding: 0;
+    display: none;
+}
+
+/* CALENDAR, LOOKUP BUTTON HOVER */
+.theme-entry.mapei div.input-control.select-box.lookup-box div.input-control-buttons.styling-right.styling-inner-wrapper:hover {
+    background-color: var(--input-button-hover-background-color);
+    cursor: pointer;
+}
+.theme-entry.mapei div.input-control.select-box.lookup-box div.input-control-buttons.styling-right.styling-inner-wrapper a.ellipsis:hover {
+    background-color: transparent;
+}
+
+/* CALENDAR EXTRA SIZE */
+.theme-entry.mapei .input-control.select-box.datepicker .input-control-buttons a.date.calender-control-button.style-aware svg, .theme-entry.mapei .input-control.select-box.disabled .input-control-buttons a.date svg {
+    scale: 1;
+    display: none;
+}
+
+/* REMOVE DROP-DOWN BUTTON */
+.theme-entry.mapei .input-control.select-box:not(.lookup-box) .input-control-buttons a, .theme-entry.mapei .input-control.select-box .input-control-buttons, .theme-entry.mapei .input-control-buttons {
+    display: none;
+}
+
+/* NO WRAP FOR ALL TEXT */
+    .row span,
+    .editor-cell label,
+    .editor-cell div {
+        white-space: normal !important;
+        overflow: visible !important;
+        text-overflow: unset !important;
+        height: auto !important;
+        min-height: 0 !important;
+        max-height: none !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+    }
+
+/* REMOVE TABLE BORDERS */
+.editor-cell .SourceCode-Forms-Controls-Web-Table,
+.editor-cell .SourceCode-Forms-Controls-Web-Table span[layouttype="cell"] {
+    border: none !important;
+}
+
+ /* STACKS CELLS VERTICALLY AND FIXES CONTENT */
+    .editor-cell {
+       padding: 0 !important;
+    }
+
+    .editor-cell > *,
+    .editor-cell span[layouttype="cell"] > * {
+        float: none !important;
+    }
+
+    /* FORCE LABEL ON THEIR OWN LINE */
+    .editor-cell label {
+        display: block !important;
+        width: 100% !important;
+        clear: both !important;
+    }
+
+    /* REMOVE TABS */
+    ul.tab-box-tabs {
+        display: none;
+    }
+
+    /* REMOVE TABLE BORDERS */
+    .editor-cell .SourceCode-Forms-Controls-Web-Table,
+    .editor-cell .SourceCode-Forms-Controls-Web-Table span[layouttype="cell"] {
+        border: none !important;
+    }
+
+    /* REMOVE CELL PADDING */
+    .editor-cell {
+        padding: 0 !important;
+    }
+
+    /* PREVENT LABELS FROM SITTING SIDE BY SIDE */
+    .editor-cell label {
+        display: block !important;
+        width: 100% !important;
+        clear: both !important;
+    }
+
+    /* REMOVE GRID AND STACK EVERYTHING VERTICALLY */
+    .Grid-Layout {
+        display: block !important;
+        overflow: visible !important;
+        text-align: left !important;
+    }
+
+    /* ALIGN CONTENT LEFT */
+    .Grid-Layout span {
+        text-align: left !important;
+    }    
+
+}
