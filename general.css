@@ -154,6 +154,10 @@ body.theme-entry.mapei [name^="HeaderView"] {
     border: 1px solid #495057 !important;
 }
 
+.theme-entry.mapei .input-control-m-c:has([role="textbox"].disabled){
+    background-color: transparent !important;
+}
+
 /*LOOKUP, CALENDAR, AUTOCOMPLETE, PICKER BUTTONS FIX*/
 .theme-entry.mapei .input-control.select-box .input-control-m-c, .theme-entry.mapei .input-control.select-box .input-control-buttons, .theme-entry.mapei .input-control-buttons, .theme-entry.mapei .input-control.text-input .input-control-m-c, .theme-entry.mapei .input-control.select-box.picker-input .input-control-buttons, .theme-entry.mapei .input-control.select-box.picker-input.double-buttons .input-control-buttons {
     border: 0 solid transparent;
