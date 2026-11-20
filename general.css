@@ -393,6 +393,10 @@ body.theme-entry.mapei:has(div[name^="HeaderViewPolyglass"])
   opacity: 0.5;
 }
 
+.theme-entry.mapei label.focus{
+    outline-color: transparent !important;
+}
+
 /***************************** AUTOCOMPLETE ****************************/
 
 body.theme-entry.mapei .ui-autocomplete-input{
