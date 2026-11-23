@@ -197,7 +197,7 @@ body.theme-entry.mapei .input-control.lookup-box .input-control-buttons {
 
 /* PADDING FOR AUTOCOMPLETE */
 .theme-entry.mapei .SFC.SourceCode-Forms-Controls-Web-ControlPack-AutoComplete .input-control-m-c input.input-control {
-    padding: 1.1em;
+    padding: 1em; /*era 1.1 modificato da riccardo per equiparare autocomplete a dropdown*/
 }
 
 /* REMOVE SET HEIGHT FOR AUTOCOMPLETE */
