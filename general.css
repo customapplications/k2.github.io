@@ -233,8 +233,12 @@ body.theme-entry.mapei .input-control.lookup-box .input-control-buttons {
 }
 
 /* CALENDAR, LOOKUP INPUT PADDING */
-.theme-entry.mapei .input-control.select-box.lookup-box.calendar-control.datepicker .input-control-watermark, .theme-entry.mapei .input-control.select-box.lookup-box.calendar-control.datepicker .input-control, .theme-entry.mapei .input-control.select-box.lookup-box .input-control-watermark, .theme-entry.mapei .input-control.select-box.lookup-box .input-control{
+.theme-entry.mapei .input-control.select-box.lookup-box.calendar-control.datepicker .input-control-watermark, .theme-entry.mapei .input-control.select-box.lookup-box.calendar-control.datepicker .input-control {
     padding: .8em;
+}
+
+.theme-entry.mapei .input-control.select-box.lookup-box .input-control-watermark, .theme-entry.mapei .input-control.select-box.lookup-box .input-control{
+    padding: .7em;
 }
 
 /* CALENDAR, LOOKUP FIX DUE ADDING PADDING */
