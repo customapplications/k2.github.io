@@ -161,7 +161,7 @@ body.theme-entry.mapei [name^="HeaderView"] {
 /*LOOKUP, CALENDAR, AUTOCOMPLETE, PICKER BUTTONS FIX*/
 .theme-entry.mapei .input-control.select-box .input-control-m-c, .theme-entry.mapei .input-control.select-box .input-control-buttons, .theme-entry.mapei .input-control-buttons, .theme-entry.mapei .input-control.text-input .input-control-m-c, .theme-entry.mapei .input-control.select-box.picker-input .input-control-buttons, .theme-entry.mapei .input-control.select-box.picker-input.double-buttons .input-control-buttons {
     border: 0 solid transparent;
-    border-width: 0;
+    border-width: 0 !important;
 }
 
 /*ICON BORDER LEFT FOR LOOKUP FIELDS*/
@@ -175,7 +175,7 @@ body.theme-entry.mapei .input-control.lookup-box .input-control-buttons {
 .theme-entry.mapei .input-control.select-box:not(.hide-buttons) .input-control-m-c {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
-    border-width: 0;
+    border-width: 0 !important;
 }
 
 .theme-entry.mapei .input-control.text-input .input-control-m-c{
